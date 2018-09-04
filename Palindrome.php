@@ -9,7 +9,6 @@ class Palindrome
      *
      * @throws Exception
      */
-    private $value;
 
     public static function isPalindrome($str)
     {
