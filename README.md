@@ -2,6 +2,7 @@
 class Palindrome with TestUnit
 
 > php Palindrome.php
+
 /* RESULTS BELOW:
 * Madam In Eden, I'm Adam = true
 * Madam In Aden, I'm Adam = false
@@ -19,6 +20,7 @@ class Palindrome with TestUnit
 # Need to install phpunit: https://phpunit.de/getting-started/phpunit-7.html
 # Need to mkdir src (can leave empty)
 > ./vendor/bin/phpunit --bootstrap vendor/autoload.php --testdox --verbose testPalindrome.php
+
 /* RESULTS BELOW:
 * Madam In Eden, I'm Adam = true
 * Madam In Aden, I'm Adam = false
