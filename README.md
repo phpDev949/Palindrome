@@ -19,16 +19,18 @@ class Palindrome with TestUnit
 # Need to install phpunit: https://phpunit.de/getting-started/phpunit-7.html
 # Need to mkdir src (can leave empty)
 > ./vendor/bin/phpunit --bootstrap vendor/autoload.php --testdox --verbose testPalindrome.php
-Madam In Eden, I'm Adam = true
-Madam In Aden, I'm Adam = false
-A Man, A Plan, A Canal-Panama! = true
-A Man, A Plan, A Panal-Panama! = true
-Mr. Owl Ate My Metal Worm = true
-Mr. Owl Eight My Metal Worm = false
-Was It A Rat I Saw? = true
-Was It A Brat I Saw? = false
-1279827348971238974 4789 32179843 7289721 = true
-127A982734897123 M9744789B32179843 7289721 = false
+/* RESULTS BELOW:
+* Madam In Eden, I'm Adam = true
+* Madam In Aden, I'm Adam = false
+* A Man, A Plan, A Canal-Panama! = true
+* A Man, A Plan, A Panal-Panama! = true
+* Mr. Owl Ate My Metal Worm = true
+* Mr. Owl Eight My Metal Worm = false
+* Was It A Rat I Saw? = true
+* Was It A Brat I Saw? = false
+* 1279827348971238974 4789 32179843 7289721 = true
+* 127A982734897123 M9744789B32179843 7289721 = false
+*/
 PHPUnit 7.3.3 by Sebastian Bergmann and contributors.
 
 Runtime:       PHP 7.2.9
