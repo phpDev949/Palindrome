@@ -1,7 +1,8 @@
 # Palindrome
+
 class Palindrome with TestUnit
 
-> php Palindrome.php
+command-line> php Palindrome.php
 
 /* RESULTS BELOW:
 * Madam In Eden, I'm Adam = true
